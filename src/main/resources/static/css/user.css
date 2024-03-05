@@ -1,0 +1,21 @@
+main .user-block {
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 6px;
+    height: 150px;
+    width: 100%;
+}
+
+main .user-block .left {
+    float: left;
+}
+
+main .user-block .left>a:first-child {
+    padding: 1rem 0 0 0.5rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+main .user-block .right {
+    padding-top: 1rem;
+    float: right;
+}
